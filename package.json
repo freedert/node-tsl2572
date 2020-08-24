@@ -1,0 +1,20 @@
+{
+  "name": "tsl2572",
+  "version": "0.0.1",
+  "description": "node.js interface for the TSL2572 Light-to-Digital Converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register"
+  },
+  "author": "iwk",
+  "license": "MIT",
+  "dependencies": {
+    "i2c-bus": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/register": "^7.10.5",
+    "babel-preset-env": "^1.7.0",
+    "mocha": "^8.1.0"
+  }
+}
